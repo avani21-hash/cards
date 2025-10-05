@@ -1,0 +1,185 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+}
+html,
+body {
+ height: 100%;
+ width: 100%;
+}
+
+.main{
+    height: 100%;
+ width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+     flex-shrink: 0;
+}
+
+.card{
+    height: 300px;
+    width: 220px;
+     background-color: #4b4b4b;
+    color: rgba(255, 255, 255, 0.913);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(25, 20, 20, 0.881);
+}
+
+.card .img1{
+    height: 290px;
+    width: 210px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-image:url("https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-text{
+    font-family:sans-serif;
+    font-weight: lighter;
+    text-align:start;
+    padding: 10rem 1rem;
+}
+
+.card-text h5{
+    padding-top: 5px;
+}
+
+.card-text p{
+    padding-top: 2px;
+    font-size: medium;
+}
+
+.card-text button{
+    background-color: rgba(255, 255, 255, 0.913);
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+.card .img2{
+    height: 290px;
+    width: 210px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-image:url("https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmVzc2lvbmFsfGVufDB8fDB8fHww") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .img3{
+    height: 290px;
+    width: 210px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-image:url("https://images.unsplash.com/photo-1600275669283-4bf2bb8a990c?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .img4{
+    height: 290px;
+    width: 210px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-image:url("https://images.unsplash.com/photo-1616769364512-1e50e8266907?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .img5{
+    height: 290px;
+    width: 210px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-image:url("https://images.unsplash.com/photo-1562788869-4ed32648eb72?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2Zlc3Npb25hbCUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .img6{
+    height: 290px;
+    width: 210px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-image:url("https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card .img7{
+    height: 290px;
+    width: 210px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-image:url("https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2Zlc3Npb25hbCUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+}
+
+.card:focus {
+  transform: scale(1.10);
+  box-shadow: 0 12px 64px rgba(0,0,0,0.30);
+  z-index: 10;
+}
+
+
+@media (max-width: 960px) {
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  main {
+    width: 100vw;
+    height: 95vh;
+    max-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 1rem 0;
+    box-sizing: border-box;
+  }
+  .card {
+    width: 90vw;
+    max-width: 320px;
+    min-width: 160px;
+    margin-bottom: 0.5rem;
+  }
+
+  .card .img1,
+    .card .img2,
+    .card .img3,
+    .card .img4,
+    .card .img5,
+    .card .img6,
+    .card .img7 {
+        width: 97%;
+        height: 97%;
+    }
+
+}
